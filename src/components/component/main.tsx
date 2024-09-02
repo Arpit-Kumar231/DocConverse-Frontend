@@ -51,8 +51,8 @@ export function Main() {
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className=" px-10 md:px-12">
             <div className="grid  lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px] justify-between">
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
+              <div className="flex flex-col justify-center gap-10">
+                <div className=" flex flex-col gap-8">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     Converse with your documents using AI
                   </h1>
@@ -162,8 +162,8 @@ export function Main() {
           <div className="px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">What Our Customers Say</div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Hear from our happy users</h2>
+                <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Features of DocConverse</div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Abundance of Features</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Our customers love using Doc Converse to streamline their document workflows and leverage AI to get
                   more done.
@@ -179,15 +179,14 @@ export function Main() {
                   </Avatar>
                   <div className="space-y-2">
                     <div className="flex items-center space-x-2">
-                      <h4 className="font-medium">John Doe</h4>
+                      <h4 className="font-medium">Chat with all Types of Documents</h4>
                       <div className="flex items-center space-x-1 text-xs text-muted-foreground">
                         <StarIcon className="h-4 w-4 fill-primary" />
                         <span>5.0</span>
                       </div>
                     </div>
                     <p className="text-muted-foreground">
-                      "Doc Converse has been a game-changer for our team. The\n AI-powered chat and version control
-                      features have\n streamlined our document workflow and saved us so much\n time."
+                      "Chat with any type of Document from anywhere leveraged with the power of AI"
                     </p>
                   </div>
                 </div>
@@ -200,16 +199,14 @@ export function Main() {
                   </Avatar>
                   <div className="space-y-2">
                     <div className="flex items-center space-x-2">
-                      <h4 className="font-medium">Jane Doe</h4>
+                      <h4 className="font-medium">Faster and Imporved UI/UX</h4>
                       <div className="flex items-center space-x-1 text-xs text-muted-foreground">
                         <StarIcon className="h-4 w-4 fill-primary" />
                         <span>4.8</span>
                       </div>
                     </div>
                     <p className="text-muted-foreground">
-                      "I was hesitant to try a new document collaboration tool,\n but Doc Converse has exceeded my
-                      expectations. The\n AI-powered chat and secure sharing features have made\n our team more
-                      efficient and organized."
+                      "Chat with your Document in a platform pleasing to your eye and feel the power of our page"
                     </p>
                   </div>
                 </div>
